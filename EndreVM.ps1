@@ -1,4 +1,43 @@
-﻿
+﻿#region Help
+# ----------
+
+<#
+    .SYNOPSIS
+
+        Dette er et PowerShell-Script som har som formål å endre VM-er i Hyper-V
+        
+        Versjon Historie:
+                [ ] Versjon 3.0 x          - Remote
+                [X] Versjon 2.0 02.05.2017 - Automasjonsmuligheter
+                [ ] Versjon 1.5 28.04.2017 - Meny & Undermenyer
+                [ ] Versjon 1.0 26.04.2017 - Opprettelse
+                 
+    .EXAMPLE
+    
+        Scriptet kjøres .\EndreVM.ps1 for å laste inn funksjonene.
+        Deretter bruker man Get-VMMenu for å få et grensesnitt som forenkler scriptet.
+        Det går også fint å bruke funksjonene dersom man husker på de, dette kan kjøres slik:
+        I kommandovinduet skriver man f.eks Set-vmstatusOff eller Set-vmstatusOn for å slippe menyen.
+
+    .DESCRIPTION
+    
+        Scriptet baseres på en hovedmeny med undermenyer som kjører funksjoner som ligger i scriptet.
+        Menyene er f.eks Get-VMMenu og Get-VMStatusMenu som kan kjøres rett fra kommandolinja. Scriptet
+        har vært gjennom en stor forbedringsprosess for å forenkle muligheten å skru av eller endre flere
+        maskiner samtidig. Dette er nå mulig på diverse av funksjonene det er mest nyttig. Dette står
+        listet i menyen når man bruker Get-VMMenu. Scriptet fokuserer på å kunne endre status på maskin,
+        RAM, Switch og ProsessorCount.
+                
+    .NOTES
+
+        Forfatter: Eirik Granli og Mikael Kvaal
+        Laget i forbindelse med Bachelorprosjekt 2017
+        Linje: Informatikk, Drift av Datasystemer
+
+#>
+
+#endregion Help
+
 
 function Get-VMMenu {
 
