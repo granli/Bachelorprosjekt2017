@@ -1,5 +1,5 @@
 VMNavn,VHDMappe,VMMappe,MemoryStartupBytes,VMSwitchNavn,NewVHDSizeBytes
-VMCSV1343,E:\vhdd\,E:\HyperV\,2,vmxnet3,40
-VMCSV1344,E:\vhdd\,E:\HyperV\,3,vmxnet3,30
-VMCSV1345,E:\vhdd\,E:\HyperV\,3,vmxnet3,30
+VMCSV1,E:\vhdd\,E:\HyperV\,2,vmxnet3,40
+VMCSV2,E:\vhdd\,E:\HyperV\,3,vmxnet3,30
+VMCSV3,E:\vhdd\,E:\HyperV\,3,vmxnet3,30
 
